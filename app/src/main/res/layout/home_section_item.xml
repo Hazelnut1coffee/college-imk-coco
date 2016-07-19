@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/homeheader_iv_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/im_rendang"
+        android:scaleType="centerCrop"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:alpha="0.5"
+        android:background="@color/colorPrimary"
+        android:layout_alignBottom="@id/homeheader_iv_image" />
+
+    <TextView
+        android:id="@+id/homeheader_txt_foodname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Rendang Padang"
+        android:textColor="@color/colorWhite"
+        android:padding="@dimen/object_small_margin"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@id/homeheader_iv_image"/>
+</RelativeLayout>
